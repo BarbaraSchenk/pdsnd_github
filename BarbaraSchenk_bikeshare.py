@@ -167,7 +167,7 @@ def user_stats(df, city):
     start_time = time.time()
 
     # Display counts of user types
-    #https://erikrood.com/Python_References/rows_cols_python.html
+    # https://erikrood.com/Python_References/rows_cols_python.html
     subscriber = df.loc[df['User Type'] == 'Subscriber']
     customer = df.loc[df['User Type'] == 'Customer']
     print("Counts of user type: {} Subscriber and {} Customer".format(subscriber.count()[0], customer.count()[0]))
