@@ -208,6 +208,7 @@ def main():
             station_stats(df)
             trip_duration_stats(df)
             user_stats(df,city)
+            print("Thank you for using the program today! We hope you found the information helpful :-)")
         else:
             print("No data record match your criteria: City: {}, Month: {}, Weekday:{}".format(city, month, day))
 
