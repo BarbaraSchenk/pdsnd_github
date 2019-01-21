@@ -12,6 +12,8 @@ MONTHS_CODE = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6:
 
 WEEKDAYS = { 'mon': 'Monday', 'tue': 'Tuesday', 'wed': 'Wednesday', 'thu': 'Thursday', 'fri': 'Friday', 'sat': 'Saturday', 'sun': 'Sunday', 'all': 'All'}
 
+NEW_VARIABLE =[new_1, new_2]
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
