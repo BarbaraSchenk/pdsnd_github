@@ -1,7 +1,12 @@
+"""
+This project uses data provided by motivate, a bike share system provider for many major cities
+in the United States, to uncover bike share usage patterns. A variety of descriptive statistics
+can be calculated and compared for Chicago, New York City, and Washington, DC.
+"""
+
 import time
 import pandas as pd
 import numpy as np
-
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
